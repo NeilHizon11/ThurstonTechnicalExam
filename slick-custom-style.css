@@ -1,0 +1,14 @@
+/* slick slider */
+.slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: var(--primary-green)!important;
+}
+.hero-section .slick-dots {
+    margin-bottom: 50px!important;
+}
+.slick-dots li button:before{
+    font-size: 15px!important;
+}
+.slick-next:before, .slick-prev:before {
+    display: none;
+}
